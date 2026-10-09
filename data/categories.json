@@ -1,0 +1,56 @@
+[
+ {
+  "id": "jerseys",
+  "slug": "jerseys",
+  "name": "قمصان أندية",
+  "description": "جيرزي أندية عالمية بجودة عالية — برشلونة، ريال مدريد، ليفربول، ميلان وباريس سان جيرمان بمقاسات S إلى XXL",
+  "image": "home/cat-jerseys.jpg",
+  "accent": "#e11d2e",
+  "sort_order": 1
+ },
+ {
+  "id": "national",
+  "slug": "national",
+  "name": "منتخبات",
+  "description": "قمصان منتخبات — العراق، البرازيل، الأرجنتين، فرنسا وأكثر بجودة تدريست",
+  "image": "home/cat-national.jpg",
+  "accent": "#1d7a4c",
+  "sort_order": 2
+ },
+ {
+  "id": "tracksuits",
+  "slug": "tracksuits",
+  "name": "درستس",
+  "description": "درستس وطقم رياضي دافئ للشتاء — رجالي ونسائي بمقاسات من S إلى XXL",
+  "image": "home/cat-tracksuits.jpg",
+  "accent": "#1e3a8a",
+  "sort_order": 3
+ },
+ {
+  "id": "shoes",
+  "slug": "shoes",
+  "name": "أحذية",
+  "description": "أحذية رياضية بمقاسات 39–45 — جري، كاجوال وتمارين يومية",
+  "image": "home/cat-shoes.jpg",
+  "accent": "#7c3aed",
+  "sort_order": 4
+ },
+ {
+  "id": "accessories",
+  "slug": "accessories",
+  "name": "إكسسوارات",
+  "description": "إكسسوارات رياضية — شنط، ساعات، اكمام وسوست تكمّل إطلالتك الرياضية",
+  "image": "home/cat-accessories.jpg",
+  "accent": "#0f766e",
+  "sort_order": 5
+ },
+ {
+  "id": "equipment",
+  "slug": "equipment",
+  "name": "معدات",
+  "description": "معدات تمرين منزلي — كرات، دمبل وأحزمة مقاومة لتمارين فعّالة في أي مكان",
+  "image": "home/cat-equipment.jpg",
+  "accent": "#b45309",
+  "sort_order": 6
+ }
+]
