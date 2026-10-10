@@ -63,18 +63,18 @@ const catalogStyles = `
 .stat-item { display: inline-flex; align-items: center; gap: 7px; }
 .stat-item svg { flex: 0 0 auto; color: var(--stv-red); }
 .stat-item strong { color: var(--stv-red); font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.stat-divider { width: 1px; height: 16px; background: rgba(48, 38, 42, .14); }
+.stat-divider { width: 1px; height: 16px; background: rgba(15, 15, 20, .12); }
 .empty-state.glass-card { padding: 62px 24px; margin-top: 4px; }
 .empty-state.glass-card:hover { transform: none; box-shadow: var(--glass-shadow); }
 .pager { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 7px; margin-top: 30px; }
-.pager-btn { min-width: 42px; height: 42px; display: inline-flex; align-items: center; justify-content: center; padding: 0 6px; font-family: inherit; font-size: 13px; font-weight: 600; color: var(--stv-ink); background: rgba(255, 251, 250, .78); border: 1px solid rgba(255, 255, 255, .9); border-radius: 13px; box-shadow: 0 6px 16px -12px rgba(74, 24, 43, .35); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); cursor: pointer; font-variant-numeric: tabular-nums; transition: background .18s ease, color .18s ease, border-color .18s ease, transform .18s ease, box-shadow .18s ease; }
+.pager-btn { min-width: 42px; height: 42px; display: inline-flex; align-items: center; justify-content: center; padding: 0 6px; font-family: inherit; font-size: 13px; font-weight: 600; color: var(--stv-ink); background: rgba(255, 255, 255, .78); border: 1px solid rgba(255, 255, 255, .9); border-radius: 13px; box-shadow: 0 6px 16px -12px rgba(15, 15, 20, .3); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); cursor: pointer; font-variant-numeric: tabular-nums; transition: background .18s ease, color .18s ease, border-color .18s ease, transform .18s ease, box-shadow .18s ease; }
 .pager-btn:hover:not(:disabled) { color: var(--stv-red); border-color: rgba(225, 29, 46, .35); transform: translateY(-1px); }
 .pager-btn.is-active { color: #fff; background: var(--stv-red); border-color: var(--stv-red); box-shadow: 0 10px 22px -12px rgba(225, 29, 46, .55); }
 .pager-btn.is-active:hover { color: #fff; transform: none; }
 .pager-btn:focus-visible { outline: 2px solid var(--stv-red); outline-offset: 2px; }
 .pager-gap { min-width: 24px; text-align: center; color: var(--stv-muted); font-size: 13px; letter-spacing: 1px; }
 .filter-panel-title strong { display: inline-flex; align-items: center; gap: 7px; }
-.filter-panel .filter-browse { width: 100%; min-height: 44px; justify-content: space-between; padding: 10px 0; border-top: 1px solid rgba(48, 38, 42, .1); }
+.filter-panel .filter-browse { width: 100%; min-height: 44px; justify-content: space-between; padding: 10px 0; border-top: 1px solid rgba(15, 15, 20, .08); }
 .filter-drawer .filter-panel { padding: 4px 24px 0; background: transparent; border: 0; border-radius: 0; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
 .catalog-search input[type="search"] { -webkit-appearance: none; appearance: none; }
 .catalog-search input[type="search"]::-webkit-search-cancel-button { display: none; }

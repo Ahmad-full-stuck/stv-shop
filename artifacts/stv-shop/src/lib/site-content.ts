@@ -78,13 +78,13 @@ export const defaultSiteContent: SiteContent = {
   promoPill: 'توصيل لكل العراق',
   promoLead: 'توصيل مجاني',
   promoText: 'للطلبات فوق {price}',
-  emailOrdersTo: 'wealiahmad.ali@gmail.com',
+  emailOrdersTo: '',
   emailFromName: 'STV Shop — للتجهيزات الرياضية',
   emailFrom: '',
   emailSubjectOrder: 'طلب جديد من STV Shop #{orderNumber}',
   emailTemplateOrder: '',
   emailProvider: 'formsubmit',
-  emailFormSubmitAction: 'https://formsubmit.co/wealiahmad.ali@gmail.com',
+  emailFormSubmitAction: '',
 }
 
 const readJson = <T,>(key: string, fallback: T): T => {

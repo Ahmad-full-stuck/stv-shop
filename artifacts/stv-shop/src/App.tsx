@@ -19,7 +19,7 @@ import { AboutPage, ContactPage, FabricGuidePage, OrderConfirmationPage, OrderTr
 import NotFound from '@/pages/not-found'
 
 const shellStyles = `
-.skip-link { position: fixed; top: 14px; right: 14px; z-index: 140; display: inline-flex; align-items: center; gap: 8px; padding: 11px 18px; color: #fff6f8; background: var(--stv-red); border: 1px solid rgba(255, 255, 255, .4); border-radius: 999px; box-shadow: var(--eva-shadow-small); backdrop-filter: blur(10px); font-size: 12px; font-weight: 600; transform: translateY(-190%); transition: transform .2s ease; }
+.skip-link { position: fixed; top: 14px; right: 14px; z-index: 140; display: inline-flex; align-items: center; gap: 8px; padding: 11px 18px; color: #fff; background: var(--stv-red); border: 1px solid rgba(255, 255, 255, .4); border-radius: 999px; box-shadow: 0 8px 20px rgba(15, 15, 20, .18); backdrop-filter: blur(10px); font-size: 12px; font-weight: 600; transform: translateY(-190%); transition: transform .2s ease; }
 .skip-link:focus { transform: translateY(0); }
 .app-main { scroll-margin-top: 116px; }
 .footer-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 34px; padding-top: 46px; }

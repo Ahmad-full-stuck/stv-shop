@@ -60,12 +60,12 @@ const createLocalOrderNumber = (): string => {
 }
 
 const glassStyles = `
-.glass-scope { --glass-fill: rgba(255, 252, 250, .6); --glass-strong: rgba(255, 251, 250, .9); --glass-line: rgba(255, 255, 255, .74); --glass-shadow: 0 22px 48px rgba(74, 24, 43, .1); }
+.glass-scope { --glass-fill: rgba(255, 255, 255, .62); --glass-strong: rgba(255, 255, 255, .9); --glass-line: rgba(255, 255, 255, .75); --glass-shadow: 0 22px 48px rgba(15, 15, 20, .08); }
 .glass-scope .glass { position: relative; background: var(--glass-fill); border: 1px solid var(--glass-line); box-shadow: var(--glass-shadow); backdrop-filter: blur(18px) saturate(150%); -webkit-backdrop-filter: blur(18px) saturate(150%); }
 .glass-scope .glass-card { border-radius: 16px; }
 .glass-scope .glass-strong { background: var(--glass-strong); border-color: rgba(255, 255, 255, .92); }
 .glass-scope .glass.checkout-summary, .glass-scope .glass.order-summary { position: sticky; top: 120px; }
-.glass-scope .glass-dark { color: #fff6f8; background: rgba(46, 24, 33, .92); border: 1px solid rgba(255, 246, 248, .18); box-shadow: 0 16px 34px rgba(46, 24, 33, .24); }
+.glass-scope .glass-dark { color: #fff; background: rgba(15, 15, 20, .88); border: 1px solid rgba(255, 255, 255, .12); box-shadow: 0 16px 34px rgba(15, 15, 20, .22); }
 .glass-scope .glass-pill { border-radius: 999px; }
 .glass-scope .glass-input, .glass-scope .field-input, .glass-scope .field textarea { background: rgba(255, 255, 255, .74); border-color: rgba(255, 255, 255, .92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
 .glass-scope .glass-divider { height: 1px; margin: 16px 0; background: linear-gradient(90deg, rgba(225, 29, 46, 0), rgba(225, 29, 46, .32), rgba(225, 29, 46, 0)); border: 0; }

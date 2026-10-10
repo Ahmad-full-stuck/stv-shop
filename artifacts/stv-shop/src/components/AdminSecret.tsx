@@ -214,7 +214,7 @@ const adminStyles = `
 @supports (height: 100dvh) { .admin-panel { max-height: min(92dvh, calc(100dvh - 28px)); } }
 @keyframes adminFade { from { opacity: 0; } }
 @keyframes adminPop { from { opacity: 0; transform: translateY(14px) scale(.985); } }
-.admin-head { flex: 0 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 18px; color: #fff6f8; background: linear-gradient(135deg, var(--stv-steel), var(--stv-red-dark)); }
+.admin-head { flex: 0 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 18px; color: #fff; background: linear-gradient(135deg, #1a1a1e, var(--stv-red-dark)); }
 .admin-head h2 { margin: 0; font-size: 16.5px; display: flex; align-items: center; gap: 9px; }
 .admin-head small { display: block; font-size: 11px; opacity: .78; font-weight: 400; }
 .admin-head .admin-btn.ghost { min-height: 34px; padding: 6px 12px; font-size: 12px; }
@@ -1440,7 +1440,7 @@ export function AdminSecret({ products, categories }: AdminSecretProps) {
                               dir="ltr"
                               inputMode="email"
                               type="email"
-                              placeholder="wealiahmad.ali@gmail.com"
+                              placeholder="your-email@example.com"
                             />
                           </div>
                           <div className="admin-field">
@@ -1479,7 +1479,7 @@ export function AdminSecret({ products, categories }: AdminSecretProps) {
                               dir="ltr"
                             />
                             <small style={{ display: 'block', marginTop: 4, color: 'var(--stv-muted)', fontSize: 11 }}>
-                              اتركه كما هو: https://formsubmit.co/wealiahmad.ali@gmail.com — أو استبدل wealiahmad.ali@gmail.com ببريدك.
+                              اتركه كما هو: https://formsubmit.co/your-email@example.com — أو استبدل your-email@example.com ببريدك.
                             </small>
                           </div>
                         )}
@@ -1748,7 +1748,7 @@ export function AdminSecret({ products, categories }: AdminSecretProps) {
         </div>
       )}
       {toast && (
-        <div style={{ position: 'fixed', bottom: 26, left: '50%', transform: 'translateX(-50%)', zIndex: 400, background: 'var(--stv-steel)', color: '#fff6f8', padding: '10px 16px', borderRadius: 999, fontSize: 13, fontWeight: 700, boxShadow: '0 12px 30px -12px rgba(46,24,33,.6)' }} role="status">
+        <div style={{ position: 'fixed', bottom: 26, left: '50%', transform: 'translateX(-50%)', zIndex: 400, background: '#1a1a1e', color: '#fff', padding: '10px 16px', borderRadius: 999, fontSize: 13, fontWeight: 700, boxShadow: '0 12px 30px -12px rgba(15,15,20,.6)' }} role="status">
           {toast}
         </div>
       )}

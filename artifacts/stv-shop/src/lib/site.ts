@@ -35,7 +35,7 @@ export const siteConfig = {
   shortName: 'STV Shop',
   get phone() { return adminContent().phone || localPhone },
   get instagramUrl() { return adminContent().instagram || safeInstagram },
-  get contactEmail() { return adminContent().emailOrdersTo || 'wealiahmad.ali@gmail.com' },
+  get contactEmail() { return adminContent().emailOrdersTo || '' },
   emailUrl: (subject = 'استفسار من متجر STV Shop', body = 'مرحباً، أريد الاستفسار عن منتجاتكم.'): string => `mailto:${siteConfig.contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
   instagramText: 'STV Shop على إنستغرام',
 }
