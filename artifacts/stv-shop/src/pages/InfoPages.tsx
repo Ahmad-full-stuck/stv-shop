@@ -367,8 +367,8 @@ export function AboutPage() {
             </div>
           </div>
           <div className="about-collage">
-            <SmartImage src="home/hero-2.svg" alt={t('about.imgAlt1')} sizes="(max-width: 820px) 46vw, 24vw" />
-            <SmartImage src="home/hero-3.svg" alt={t('about.imgAlt2')} sizes="(max-width: 820px) 46vw, 24vw" />
+            <SmartImage src="home/hero-2.webp" alt={t('about.imgAlt1')} sizes="(max-width: 820px) 46vw, 24vw" />
+            <SmartImage src="home/hero-3.webp" alt={t('about.imgAlt2')} sizes="(max-width: 820px) 46vw, 24vw" />
             <span>STV<br /><strong>SHOP</strong></span>
           </div>
         </section>

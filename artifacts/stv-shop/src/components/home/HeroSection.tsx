@@ -33,9 +33,9 @@ export function HeroSection({ products, categories }: HeroSectionProps) {
   ]
 
   const slides = [
-    { src: 'home/hero-1.svg', alt: t('home.slide.colorful') },
-    { src: 'home/hero-2.svg', alt: t('home.slide.sequin') },
-    { src: 'home/hero-3.svg', alt: t('home.slide.pearl') },
+    { src: 'home/hero-1.webp', alt: t('home.slide.colorful') },
+    { src: 'home/hero-2.webp', alt: t('home.slide.sequin') },
+    { src: 'home/hero-3.webp', alt: t('home.slide.pearl') },
   ]
   const [activeSlide, setActiveSlide] = useState(0)
   const timerRef = useRef<number | undefined>(undefined)

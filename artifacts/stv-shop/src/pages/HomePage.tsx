@@ -37,7 +37,7 @@ const CATEGORY_IMAGES: Record<string, { src: string; w: number; h: number }> = {
   shoes: { src: 'home/cat-shoes.svg', w: 1440, h: 1440 },
   accessories: { src: 'home/cat-accessories.svg', w: 1440, h: 1440 },
   equipment: { src: 'home/cat-equipment.svg', w: 1440, h: 1440 },
-  national: { src: 'home/cat-national.svg', w: 1215, h: 2160 },
+  national: { src: 'home/cat-national.webp', w: 1024, h: 1365 },
 }
 
 export function HomePage({ products, categories, wishlist, onWish, onAdd }: HomePageProps) {
@@ -156,7 +156,7 @@ export function HomePage({ products, categories, wishlist, onWish, onAdd }: Home
       </section>
 
       <section className="container-stv section-block story-section" aria-label={t('home.storyEyebrow')}>
-        <div className="story-visual"><SmartImage src="home/hero-1.svg" alt={t('home.storyImageAlt')} sizes="(max-width: 820px) 92vw, 45vw" /><span>STV<br /><strong>SHOP</strong></span></div>
+        <div className="story-visual"><SmartImage src="home/hero-1.webp" alt={t('home.storyImageAlt')} sizes="(max-width: 820px) 92vw, 45vw" /><span>STV<br /><strong>SHOP</strong></span></div>
         <div className="story-copy"><span className="eyebrow">{t('home.storyEyebrow')}</span><h2>{story.title}</h2><p>{story.text}</p><p>{t('home.storyText2')}</p><Link href="/about" className="button button-outline">{t('home.storyCta')} <ArrowLeft size={16} /></Link></div>
       </section>
 
